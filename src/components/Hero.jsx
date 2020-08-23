@@ -4,7 +4,7 @@ import heroImage from '../assets/images/illustration-hero.svg'
 
 const Hero = () => (
   <div>
-    <div>
+    <section>
       <h1>A Simple Bookmark Manager</h1>
 
       <p>
@@ -16,7 +16,7 @@ const Hero = () => (
         <button>Get it on Chrome</button>
         <button>Get it on Firefox</button>
       </div>
-    </div>
+    </section>
 
     <div>
       <img
