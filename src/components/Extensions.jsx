@@ -11,3 +11,5 @@ const Extensions = () => (
     </section>
   </div>
 );
+
+export default Extensions;
