@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import Extensions from './components/Extensions';
+import Footer from './components/Footer';
 
 import './assets/css/main.css';
 
@@ -14,6 +15,7 @@ const App = () => {
       <Hero />
       <Features />
       <Extensions />
+      <Footer />
     </main>
   );
 };
