@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Extensions from './components/Extensions';
 import Footer from './components/Footer';
+import Subscribe from './components/Subscribe';
 
 import './assets/css/main.css';
 
@@ -15,6 +16,7 @@ const App = () => {
       <Hero />
       <Features />
       <Extensions />
+      <Subscribe />
       <Footer />
     </main>
   );
