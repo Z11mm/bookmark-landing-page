@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const FAQ = () => (
   <section>
@@ -11,4 +11,6 @@ const FAQ = () => (
   </section>
 );
 
-export default FAQ
+export default FAQ;
+
+qwiklabs - gcp - 01 - 03ce41b406f8: us - central1: wordpress - db
