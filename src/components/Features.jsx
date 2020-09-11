@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import Tabs from "./Tabs";
 
 const Features = () => (
   <div>
@@ -10,6 +11,8 @@ const Features = () => (
         them on the go.
       </p>
     </section>
+
+    <Tabs />
   </div>
 );
 
