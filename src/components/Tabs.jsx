@@ -8,7 +8,7 @@ const Tabs = () => (
       <button className="tablinks">Easy Sharing</button>
     </div>
 
-    <div id="London" class="tabcontent">
+    <div id="London" className="tabcontent">
     <img src="../assets/images/illustration-features-tab-1.svg" alt=""/>
       <div>
         <h3>Bookmark in one click</h3>
@@ -20,7 +20,7 @@ const Tabs = () => (
         <button>More Info</button>
       </div>
     </div>
-    <div id="London" class="tabcontent">
+    <div id="London" className="tabcontent">
     <img src="../assets/images/illustration-features-tab-2.svg" alt=""/>
       <div>
         <h3>Intelligent search</h3>
@@ -31,7 +31,7 @@ const Tabs = () => (
         <button>More Info</button>
       </div>
     </div>
-    <div id="London" class="tabcontent">
+    <div id="London" className="tabcontent">
     <img src="../assets/images/illustration-features-tab-3.svg" alt=""/>
       <div>
         <h3>Intelligent search</h3>
