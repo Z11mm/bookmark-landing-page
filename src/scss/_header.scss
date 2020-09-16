@@ -2,4 +2,11 @@ header {
   div {
     display: flex;
   }
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+    }
+  }
 }

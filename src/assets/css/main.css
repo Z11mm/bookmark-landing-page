@@ -1,4 +1,19 @@
+header div {
+  display: flex;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=main.css.map */
