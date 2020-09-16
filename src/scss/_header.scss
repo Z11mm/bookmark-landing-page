@@ -4,9 +4,16 @@ header {
   }
 
   nav {
+    margin-left: auto;
+    
     ul {
       list-style: none;
       display: flex;
+      // flex-direction: row;
+
+      li {
+        padding: 5px;
+      }
     }
   }
 }

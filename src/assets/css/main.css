@@ -1,19 +1,19 @@
 header div {
-  display: flex;
-}
-header nav ul {
-  list-style: none;
-  display: flex;
-}
+  display: flex; }
+
+header nav {
+  margin-left: auto; }
+  header nav ul {
+    list-style: none;
+    display: flex; }
+    header nav ul li {
+      padding: 5px; }
 
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
   font-family: "Rubik", Helvetica, sans-serif;
-}
-
-/*# sourceMappingURL=main.css.map */
+  padding: 0 3rem; }
