@@ -1,9 +1,9 @@
 import React from 'react';
 
-import heroImage from '../assets/images/illustration-hero.svg'
+import heroImage from '../assets/images/illustration-hero.svg';
 
 const Hero = () => (
-  <div>
+  <div className='hero'>
     <section>
       <h1>A Simple Bookmark Manager</h1>
 
@@ -18,7 +18,7 @@ const Hero = () => (
       </div>
     </section>
 
-    <div>
+    <div className='hero-image'>
       <img
         src={heroImage}
         alt='An illustration of a device page'
