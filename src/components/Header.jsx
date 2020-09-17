@@ -5,7 +5,9 @@ import brandlogo from '../assets/images/logo-bookmark.svg'
 const Header = () => (
   <header>
     <div>
-      <img src={brandlogo} alt='' />
+      <div className='brand-logo'>
+        <img src={brandlogo} alt='Brand Logo' />
+      </div>
       <nav>
         <ul>
           <li>Features</li>
