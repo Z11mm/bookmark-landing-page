@@ -13,7 +13,7 @@ const Header = () => (
           <li>Features</li>
           <li>Pricing</li>
           <li>Contact</li>
-          <li>Login</li>
+          <li className='nav-btn'>Login</li>
         </ul>
       </nav>
     </div>
