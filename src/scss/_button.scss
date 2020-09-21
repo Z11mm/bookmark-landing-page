@@ -9,4 +9,6 @@
 .nav-btn {
   @extend %btn;
   background-color: $soft-red;
+  color: #fff;
+  // padding: 5px 15px;
 }
