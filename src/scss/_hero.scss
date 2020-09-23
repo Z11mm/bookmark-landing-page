@@ -1,14 +1,17 @@
 .hero {
   display: flex;
 
-  h1 {
-    color: $very-dark-blue;
-    // font-weight: 500;
-    letter-spacing: 2px;
-  }
+  section {
+    // width: 50%;
 
-  p {
-    color: $greyish-blue;
+    h1 {
+      color: $very-dark-blue;
+      letter-spacing: 2px;
+    }
+
+    p {
+      color: $greyish-blue;
+    }
   }
 }
 

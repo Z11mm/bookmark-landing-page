@@ -13,17 +13,18 @@ header {
         text-transform: uppercase;
         font-size: 12px;
         padding: 6px 20px;
-        color: #252b46; }
+        color: #252b46;
+        letter-spacing: 1px; }
         header nav ul li:not(.nav-btn) {
           padding: 6px 0;
           margin-right: 20px; }
 
 .hero {
   display: flex; }
-  .hero h1 {
+  .hero section h1 {
     color: #252b46;
     letter-spacing: 2px; }
-  .hero p {
+  .hero section p {
     color: #9194a1; }
 
 .nav-btn, .btn-chrome, .btn-firefox {
