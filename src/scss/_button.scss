@@ -12,12 +12,19 @@
   @extend %btn;
   background-color: $soft-red;
   color: #fff;
-  // padding: 5px 15px;
 }
 
 .btn-chrome {
   @extend %btn;
   padding: 6px 15px;
   background-color: $soft-blue;
+  color: #fff;
 }
 
+.btn-firefox {
+  @extend %btn;
+  padding: 6px 15px;
+  background-color: #eeeaea;
+  color: #5e5757;
+  // font-weight: 500;
+}
