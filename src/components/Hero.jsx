@@ -13,8 +13,8 @@ const Hero = () => (
       </p>
 
       <div>
-        <button>Get it on Chrome</button>
-        <button>Get it on Firefox</button>
+        <button className='btn-chrome'>Get it on Chrome</button>
+        <button className='btn-firefox'>Get it on Firefox</button>
       </div>
     </section>
 

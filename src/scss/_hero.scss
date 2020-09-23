@@ -1,7 +1,17 @@
 .hero {
   display: flex;
+
+  h1 {
+    color: $very-dark-blue;
+    // font-weight: 500;
+    letter-spacing: 2px;
+  }
+
+  p {
+    color: $greyish-blue;
+  }
 }
 
-img {
-  max-width: 100%;
-}
+// img {
+//   max-width: 100%;
+// }
