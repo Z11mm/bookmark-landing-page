@@ -23,10 +23,11 @@ header {
         padding: 10px 30px;
         color: $very-dark-blue;
         letter-spacing: 1px;
+        cursor: pointer;
 
         &:not(.nav-btn) {
-          padding: 10px 0;
-          margin-right: 40px;
+          padding: 0 20px;
+          margin-right: 10px;
         }
         // border: 1px solid #000;
       }

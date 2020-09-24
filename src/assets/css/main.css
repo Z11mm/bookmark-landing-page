@@ -16,10 +16,11 @@ header {
         font-size: 12px;
         padding: 10px 30px;
         color: #252b46;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        cursor: pointer; }
         header nav ul li:not(.nav-btn) {
-          padding: 10px 0;
-          margin-right: 40px; }
+          padding: 0 20px;
+          margin-right: 10px; }
 
 .hero {
   position: relative;
