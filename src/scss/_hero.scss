@@ -1,5 +1,6 @@
 .hero {
   position: relative;
+  margin-bottom: 6rem;
 
   section {
     max-width: 100%;
@@ -16,8 +17,8 @@
   
       p {
         color: $greyish-blue;
-        line-height: 1.2;
-        margin-bottom: 1rem;
+        line-height: 1.4;
+        margin-bottom: 1.5rem;
         width: 75%;
       }
     }
