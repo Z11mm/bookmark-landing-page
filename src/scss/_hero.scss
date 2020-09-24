@@ -1,20 +1,41 @@
 .hero {
-  display: flex;
+  position: relative;
 
   section {
-    // width: 50%;
+    max-width: 100%;
 
-    h1 {
-      color: $very-dark-blue;
-      letter-spacing: 2px;
+    div {
+      width: 50%;
+
+      h1 {
+        color: $very-dark-blue;
+        letter-spacing: 2px;
+        margin-bottom: 1.0rem;
+        font-size: 32px;
+      }
+  
+      p {
+        color: $greyish-blue;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        width: 75%;
+      }
     }
 
-    p {
-      color: $greyish-blue;
+    .btn-browser {
+      display: flex;
     }
   }
 }
 
-// img {
-//   max-width: 100%;
-// }
+.hero-image {
+  position: absolute;
+  width: 50%;
+  top: 0;
+  right: 0;
+
+  img {
+    max-width: 70%;
+  }
+}
+
