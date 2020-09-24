@@ -34,11 +34,12 @@
 .hero-image {
   position: absolute;
   width: 50%;
-  top: -4rem;
-  right: -5rem;
+  top: -5rem;
+  right: -3rem;
 
   img {
-    max-width: 100%;
+    max-width: 120%;
+    max-height: 50%;
   }
 }
 
