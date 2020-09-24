@@ -1,8 +1,6 @@
 %btn {
   border-radius: 5px;
-  box-shadow: 0 1px 4px -4px rgba(0, 0, 0, 0.2),
-  0 2px 6px -2px rgba(0, 0, 0, 0.2),
-  0 3px 3px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
   outline: none;
   border: none;
   cursor: pointer;
@@ -16,14 +14,17 @@
 
 .btn-chrome {
   @extend %btn;
-  padding: 6px 15px;
+  padding: 10px 18px;
   background-color: $soft-blue;
   color: #fff;
+  font-weight: 600;
+  margin-right: 1rem;
 }
 
 .btn-firefox {
   @extend %btn;
-  padding: 6px 15px;
-  background-color: #eeeaea;
+  padding: 10px 18px;
+  background-color: #faf7f7;
   color: #5e5757;
+  font-weight: 600;
 }
