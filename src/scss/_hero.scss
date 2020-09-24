@@ -1,6 +1,7 @@
 .hero {
   position: relative;
   margin-bottom: 6rem;
+  margin-top: 8rem;
 
   section {
     max-width: 100%;
@@ -9,6 +10,7 @@
       width: 50%;
 
       h1 {
+        max-width: 70%;
         color: $very-dark-blue;
         letter-spacing: 2px;
         margin-bottom: 1.0rem;
@@ -32,11 +34,11 @@
 .hero-image {
   position: absolute;
   width: 50%;
-  top: 0;
-  right: 0;
+  top: -4rem;
+  right: -5rem;
 
   img {
-    max-width: 70%;
+    max-width: 100%;
   }
 }
 
