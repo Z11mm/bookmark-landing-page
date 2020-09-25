@@ -79,11 +79,15 @@ header {
 
 .features {
   text-align: center;
-  max-width: 50%; }
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto; }
   .features h2 {
-    color: #252b46; }
+    color: #252b46;
+    margin-bottom: 1rem; }
   .features .features-intro {
-    color: #9194a1; }
+    color: #9194a1;
+    margin-bottom: 2rem; }
 
 * {
   padding: 0;
