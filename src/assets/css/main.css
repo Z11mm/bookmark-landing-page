@@ -77,6 +77,14 @@ header {
   color: #5e5757;
   font-weight: 600; }
 
+.features {
+  text-align: center;
+  max-width: 50%; }
+  .features h2 {
+    color: #252b46; }
+  .features .features-intro {
+    color: #9194a1; }
+
 * {
   padding: 0;
   margin: 0;
