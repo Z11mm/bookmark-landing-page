@@ -89,6 +89,13 @@ header {
     color: #9194a1;
     margin-bottom: 2rem; }
 
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #9194a1;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto; }
+
 * {
   padding: 0;
   margin: 0;

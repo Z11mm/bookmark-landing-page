@@ -14,3 +14,13 @@
     margin-bottom: 2rem;
   }
 }
+
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid $greyish-blue;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Tab content
