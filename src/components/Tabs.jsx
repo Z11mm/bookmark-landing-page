@@ -1,5 +1,9 @@
 import React from "react";
 
+import bookmarktab from "../assets/images/illustration-features-tab-1.svg";
+import searchtab from "../assets/images/illustration-features-tab-2.svg";
+import sharetab from "../assets/images/illustration-features-tab-3.svg";
+
 const Tabs = () => (
   <div>
     <div className="tab">
@@ -9,7 +13,9 @@ const Tabs = () => (
     </div>
 
     <div id="bookmark" className="tabcontent">
-      <img src="../assets/images/illustration-features-tab-1.svg" alt="" />
+      <div className="tab-thumbnail">
+        <img src={bookmarktab} alt="bookmark thumbnail" />
+      </div>
       <div>
         <h3>Bookmark in one click</h3>
         <p>
@@ -21,7 +27,9 @@ const Tabs = () => (
       </div>
     </div>
     <div id="intellisearch" className="tabcontent">
-      <img src="../assets/images/illustration-features-tab-2.svg" alt="" />
+      <div className="tab-thumbnail">
+        <img src={searchtab} alt="search thumbnail" />
+      </div>
       <div>
         <h3>Intelligent search</h3>
         <p>
@@ -32,7 +40,9 @@ const Tabs = () => (
       </div>
     </div>
     <div id="sharebookmark" className="tabcontent">
-      <img src="../assets/images/illustration-features-tab-3.svg" alt="" />
+      <div className="tab-thumbnail">
+        <img src={sharetab} alt="share thumbnail" />
+      </div>
       <div>
         <h3>Share your bookmarks</h3>
         <p>
