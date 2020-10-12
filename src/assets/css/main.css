@@ -53,7 +53,7 @@ header {
     max-width: 100%;
     max-height: 50%; }
 
-.nav-btn, .btn-chrome, .btn-firefox {
+.nav-btn, .tabcontent-btn, .btn-chrome, .btn-firefox {
   border-radius: 5px;
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.2);
   outline: none;
@@ -63,6 +63,11 @@ header {
 .nav-btn {
   background-color: #fa5757;
   color: #fff; }
+
+.tabcontent-btn {
+  background-color: #5368df;
+  color: #fff;
+  padding: 10px 18px; }
 
 .btn-chrome {
   padding: 10px 18px;
@@ -113,6 +118,10 @@ header {
 
 .tabcontent {
   display: flex; }
+  .tabcontent .tabcontent-text h3 {
+    color: #252b46; }
+  .tabcontent .tabcontent-text p {
+    color: #9194a1; }
 
 * {
   padding: 0;

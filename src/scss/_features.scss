@@ -54,4 +54,14 @@
 .tabcontent {
   // display: none;
   display: flex;
+
+  .tabcontent-text {
+    h3 {
+      color: $very-dark-blue;
+    }
+
+    p {
+      color: $greyish-blue;
+    }
+  }
 }

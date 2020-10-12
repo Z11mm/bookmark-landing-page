@@ -12,6 +12,13 @@
   color: #fff;
 }
 
+.tabcontent-btn {
+  @extend %btn;
+  background-color: $soft-blue;
+  color: #fff;
+  padding: 10px 18px;
+}
+
 .btn-chrome {
   @extend %btn;
   padding: 10px 18px;
