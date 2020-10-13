@@ -117,11 +117,20 @@ header {
   max-height: 100%; }
 
 .tabcontent {
-  display: flex; }
-  .tabcontent .tabcontent-text h3 {
-    color: #252b46; }
-  .tabcontent .tabcontent-text p {
-    color: #9194a1; }
+  display: flex;
+  padding: 3rem 0;
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto; }
+  .tabcontent .tabcontent-text {
+    padding: 3rem 5rem;
+    max-width: 60%;
+    line-height: 1.4; }
+    .tabcontent .tabcontent-text h3 {
+      color: #252b46; }
+    .tabcontent .tabcontent-text p {
+      color: #9194a1;
+      margin: 1rem 0; }
 
 * {
   padding: 0;
