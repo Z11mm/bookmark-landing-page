@@ -4,13 +4,13 @@ import bookmarktab from "../assets/images/illustration-features-tab-1.svg";
 import searchtab from "../assets/images/illustration-features-tab-2.svg";
 import sharetab from "../assets/images/illustration-features-tab-3.svg";
 
-const Tabs = () => {
-  const [state, setstate] = useState(initialState);
+const Tabs = ({handleToggleTab}) => {
+  // const [state, setstate] = useState(initialState);
 
   return (
     <div>
       <div className="tab">
-        <button className="tablinks">Simple Bookmarking</button>
+        <button onClick={handleToggleTab} className="tablinks">Simple Bookmarking</button>
         <button className="tablinks">Speedy Searching</button>
         <button className="tablinks">Easy Sharing</button>
       </div>
