@@ -9,11 +9,11 @@ const Tabs = ({handleToggleTab}) => {
 
   return (
     <div>
-      <div className="tab">
+      {/* <div className="tab">
         <button onClick={handleToggleTab} className="tablinks">Simple Bookmarking</button>
         <button className="tablinks">Speedy Searching</button>
         <button className="tablinks">Easy Sharing</button>
-      </div>
+      </div> */}
 
       <div id="bookmark" className="tabcontent">
         <div className="tab-thumbnail">
