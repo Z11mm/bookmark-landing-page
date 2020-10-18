@@ -4,16 +4,16 @@ import bookmarktab from "../assets/images/illustration-features-tab-1.svg";
 import searchtab from "../assets/images/illustration-features-tab-2.svg";
 import sharetab from "../assets/images/illustration-features-tab-3.svg";
 
-const Tabs = ({handleToggleTab}) => {
+const TabGroup = ({handleToggleTab}) => {
   // const [state, setstate] = useState(initialState);
 
   return (
     <div>
-      {/* <div className="tab">
-        <button onClick={handleToggleTab} className="tablinks">Simple Bookmarking</button>
+      <div className="tab">
+        <button className="tablinks">Simple Bookmarking</button>
         <button className="tablinks">Speedy Searching</button>
         <button className="tablinks">Easy Sharing</button>
-      </div> */}
+      </div>
 
       <div id="bookmark" className="tabcontent">
         <div className="tab-thumbnail">
@@ -59,4 +59,4 @@ const Tabs = ({handleToggleTab}) => {
   );
 };
 
-export default Tabs;
+export default TabGroup;

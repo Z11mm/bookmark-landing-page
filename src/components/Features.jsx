@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Tabs from "./Tabs";
+import Tabs from "./TabGroup";
 
 const Features = () => {
   const [activeTab, setActiveTab] = useState(false);
@@ -25,11 +25,11 @@ const Features = () => {
         </p>
       </div>
 
-      <div className="tab">
+      {/* <div className="tab">
         <button className="tablinks">Simple Bookmarking</button>
         <button className="tablinks">Speedy Searching</button>
         <button className="tablinks">Easy Sharing</button>
-      </div>
+      </div> */}
 
       <Tabs handleToggleTab={toggleActiveTab} />
     </div>

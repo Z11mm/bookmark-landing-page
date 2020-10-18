@@ -17,6 +17,7 @@
 
 // Tab styles
 .tab {
+  display: flex;
   overflow: hidden;
   border-bottom: 1px solid  hsla(229, 8%, 60%, 0.3);
   max-width: 50%;
