@@ -25,12 +25,6 @@ const Features = () => {
         </p>
       </div>
 
-      {/* <div className="tab">
-        <button className="tablinks">Simple Bookmarking</button>
-        <button className="tablinks">Speedy Searching</button>
-        <button className="tablinks">Easy Sharing</button>
-      </div> */}
-
       <Tabs handleToggleTab={toggleActiveTab} />
     </div>
   );

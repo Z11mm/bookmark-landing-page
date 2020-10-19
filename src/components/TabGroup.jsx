@@ -5,7 +5,6 @@ import searchtab from "../assets/images/illustration-features-tab-2.svg";
 import sharetab from "../assets/images/illustration-features-tab-3.svg";
 
 const TabGroup = ({handleToggleTab}) => {
-  // const [state, setstate] = useState(initialState);
 
   return (
     <div>
