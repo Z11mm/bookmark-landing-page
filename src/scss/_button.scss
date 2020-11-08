@@ -19,22 +19,22 @@
   padding: 10px 18px;
 }
 
-.tablinks {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background-color: #fff;
-  width: 33.3%;
-  padding: 18px 24px;
-  color: hsl(233, 8%, 57%);
-  font-size: 12px;
-  font-weight: 600;
-  transition: 0.3s;
+// .tablinks {
+//   border: none;
+//   outline: none;
+//   cursor: pointer;
+//   background-color: #fff;
+//   width: 33.3%;
+//   padding: 18px 24px;
+//   color: hsl(233, 8%, 57%);
+//   font-size: 12px;
+//   font-weight: 600;
+//   transition: 0.3s;
 
-  &:active {
-    border-bottom: 2px solid $soft-red;
-  }
-}
+//   &:active {
+//     border-bottom: 2px solid $soft-red;
+//   }
+// }
 
 .btn-chrome {
   @extend %btn;

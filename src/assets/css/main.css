@@ -69,20 +69,6 @@ header {
   color: #fff;
   padding: 10px 18px; }
 
-.tablinks {
-  border: none;
-  outline: none;
-  cursor: pointer;
-  background-color: #fff;
-  width: 33.3%;
-  padding: 18px 24px;
-  color: #898b9a;
-  font-size: 12px;
-  font-weight: 600;
-  transition: 0.3s; }
-  .tablinks:active {
-    border-bottom: 2px solid #fa5757; }
-
 .btn-chrome {
   padding: 10px 18px;
   background-color: #5368df;
@@ -135,6 +121,21 @@ header {
     .tabcontent .tabcontent-text p {
       color: #9194a1;
       margin: 1rem 0; }
+
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0; }
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem; }
+
+.tab-list-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px; }
 
 * {
   padding: 0;
