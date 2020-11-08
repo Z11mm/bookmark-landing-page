@@ -16,7 +16,7 @@ const TabGroup = (props) => {
 
   return (
     <div className="tabs">
-      <ul className="tab-list">
+      <div className="tab-list">
         {children.map((child) => {
           const { label } = child.props;
 
@@ -29,7 +29,7 @@ const TabGroup = (props) => {
             />
           );
         })}
-      </ul>
+      </div>
 
       <div className="tab-content">
         {children.map((child) => {

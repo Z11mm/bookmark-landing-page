@@ -7,14 +7,14 @@ export const Tab = (props) => {
     onClick(label);
   };
 
-  let className = "tab-list-item";
+  let className = "tablinks";
   if (activeTab === label) {
-    className += " tab-list-active";
+    className += " tab-link-active";
   }
 
   return (
-    <li className={className} onClick={onClickTab}>
+    <button className={className} onClick={onClickTab}>
       {label}
-    </li>
+    </button>
   );
 };
